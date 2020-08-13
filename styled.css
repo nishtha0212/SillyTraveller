@@ -1,0 +1,134 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	text-align: center;
+	margin: 0;
+}
+div#fixedbar
+{
+	background: url(./banner.png);
+	width: 100%;
+	border-bottom: 5px solid skyblue;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	padding: 20px 30px;
+	transition-duration: 0.6s;
+}
+div#fixedbar>img
+{
+	padding: 10px 20px;
+	height: 100px;
+	float: left;
+}
+#linkscontainer
+{
+	position:absolute;
+	top: 50%;
+	right: 75px;
+	transform: translateY(-50%);
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+a.linked
+{
+	color: white;
+	padding: 0 20px;
+	text-decoration: none; /*to remove the underline of link*/
+}
+a.linked:hover
+{
+	color: lightblue;
+}
+div#contents,
+{
+	width: 100vw;
+	max-width: 1200px;
+	display: inline-block;
+
+}
+.location
+{
+	display: inline-block;	
+	font-size: 0;
+	box-shadow: 0 0 20px 2px grey;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+div.text>h3
+{
+	text-align: center;
+
+}
+div.location>img
+{
+	height: 250px;
+	width: 580px;
+	vertical-align: top;
+	border-radius: 10px;
+}
+
+.text
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	width: 600px;
+	font-size: 20px;
+	text-align: justify;
+
+}
+.text>p
+{
+	margin: 0;
+	font-size: 19px;
+	font-style: italic;
+	font-family: serif;
+}
+
+#heading>h1
+{
+	font-family: "Tangerine", serif;
+	font-size: 120px;
+	margin: 0;
+}
+#heading>h2
+{
+	font-family: "Tangerine", serif;
+	font-size: 40px;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+/* SCROLLBAR FORMATTING*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: none; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkgray; 
+  border-radius: 5px;
+}
+@media screen and (max-width: 700px)
+{
+	
+	
+	#linkscontainer
+	{
+		display: none;
+	}
+	
+}
