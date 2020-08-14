@@ -72,6 +72,14 @@ body
 	font-family: serif;	
 	transform: translateX(55%);
 }
+h2#etc
+{
+	font-family: "Forte";
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+}
+
 div.reviews>img
 {
 	width: 50%;

@@ -16,16 +16,48 @@ body
 	bottom: 0;
 	background-size: 
 	height: 400px;
-	color: darkorange;
+	color: #000066;
+	text-shadow: 2px 2px white;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	font-weight: bolder;
 	font-size: 60px;
 }
 #independence>p
+
 {
 	font-size: 30px;
+	text-shadow: 0 0 white;
+	font-family: "forte";
+	font-style: italic;
 	color: black;
+}
+table {
+  font-family: arial, sans-serif;
+  width: 80%;
+}
+th{
+	color: black;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: serif;	
+	font-size: 20px;
+}
+td, th {
+  border: 3px solid #ccccff;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ccccff;
+}
+img#off
+{
+	width: 85%;
+	height: 450px;
 }
 #hotel
 {
@@ -37,7 +69,7 @@ body
 	max-width: 1200px;
 }
 #hotel>p,
-p#T
+h3#offer
 {
 	font-size: 30px;
 	text-shadow: 0px 1px black;
@@ -94,6 +126,7 @@ div.flight>img
 	font-size: 20px;
 	text-align: justify;
 
+
 }
 .detail>p
 {
@@ -101,4 +134,32 @@ div.flight>img
 	font-size: 15px;
 	font-style: italic;
 	font-family: serif;
+}
+
+@media screen and (max-width: 700px)
+{
+	
+	#primary { width: 100%; }
+	#secondary { width: 100%; margin-left: 0; border: none; }
+	#linkscontainer
+	{
+		display: none;
+	}
+	#hotel{
+		width: 100%;
+	}
+	.detail{
+		font-size: 10px;
+	}
+	div.flight>img
+	{
+		width: 100px;
+	}
+	#Address,#Contact{
+		display: none;
+	}
+	#bottombar{
+		font-size: 10px;
+		height: 50px;
+	}
 }

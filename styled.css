@@ -44,7 +44,7 @@ a.linked:hover
 {
 	color: lightblue;
 }
-div#contents,
+div#contents
 {
 	width: 100vw;
 	max-width: 1200px;
@@ -149,8 +149,18 @@ div.location>img
 	}
 	.location
 	{
-		box-shadow: 0 0 0 0;
-		
+		box-shadow: 0 0 5 0;
+		width: 100%;
 	}
+	div.location>img,.text{ width: 100%;	}
 	
+	#Address,
+	#Contact
+	{
+		display: none;
+	}
+	#bottombar{
+		font-size: 10px;
+		height: 50px;
+	}
 }
