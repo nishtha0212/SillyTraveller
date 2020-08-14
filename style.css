@@ -233,14 +233,31 @@ div.items>img
 	{
 		display: none;
 	}
-	.reviews
+	#quote
+	{
+		color: white;
+		font-size: 35px;
+	}
+	#content
+	{
+		font-size: 1px;
+	}
+	.cont,
+	#youtube,
+	.items
 	{
 		width: 100%;
 	}
-	.cont,
-	#youtube
-	{
-		width: 100%;
+	#Address,#Contact{
+		display: none;
+	}
+	#aboutus>p{
+		font-size: 14px;
+		text-align: justify;
+	}
+	#bottombar{
+		font-size: 10px;
+		height: 50px;
 	}
 }
 
