@@ -1,3 +1,44 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	text-align: center;
+}
+#main,
+#main>p
+{
+	display: inline-block;
+	color: black;
+	text-align: justify;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: serif;	
+}
+#main>p
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#main>img
+{
+	width: 80%;
+	height: 300px;
+	transform: translateX(10%);
+}
+#itemcontainer>h3,
+#main>h3
+{
+	font-size: 30px;
+	text-shadow: 0px 1px black;
+	text-align: justify;
+	padding-left: 150px;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: serif;	
+}
 #itemcontainer
 {
 	display: inline-block;
@@ -6,6 +47,16 @@
 	padding: 30px 0;
 	text-align: justify;
 
+}
+#itemcontainer>h3,
+#main>h3
+{
+	font-size: 30px;
+	text-shadow: 0px 1px black;
+	padding-left: 100px;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: serif;	
 }
 .reviews
 {
