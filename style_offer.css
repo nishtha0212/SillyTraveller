@@ -36,7 +36,8 @@ body
 	width: 100vw;
 	max-width: 1200px;
 }
-#hotel>p
+#hotel>p,
+p#T
 {
 	font-size: 30px;
 	text-shadow: 0px 1px black;
